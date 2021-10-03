@@ -2,7 +2,8 @@
 
 ## Simple usage:
 Build:
-    $ docker build -t numpy_docker:latest .
+>$ docker build -t numpy_docker:latest .
 
 Run:
-    $ docker run -v /tmp:/tmp numpy_docker
+>$ docker run -v /tmp:/tmp numpy_docker
+
