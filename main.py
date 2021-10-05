@@ -1,5 +1,7 @@
 # This is a sample Python script.
 import numpy as np
+from qvd import qvd_reader
+
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
@@ -20,6 +22,10 @@ def print_hi(name):
         f.write(f"Result = {np.pi + var}")
 
     print(f"Success! Result = {np.pi + var}")
+
+    df = qvd_reader.read('credit_cards.qvd')
+    print(df)
+
 
 
 # Press the green button in the gutter to run the script.
